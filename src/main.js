@@ -46,6 +46,8 @@ module.exports = function (packageJson) {
     function setHasPackageAttribute(modal, shouldHaveAttr) {
         boundPackageAttribute[shouldHaveAttr ? 'decorate' : 'undecorate'](modal.parentNode);
     }
+
+    return boundPackageAttribute;
 };
 
 function packageName(packageJson) {

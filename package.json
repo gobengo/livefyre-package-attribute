@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gobengo/livefyre-package-attribute/issues"
   },
-  "homepage": "https://github.com/gobengo/livefyre-package-attribute"
+  "homepage": "https://github.com/gobengo/livefyre-package-attribute",
+  "devDependencies": {
+    "rework": "git://github.com/gobengo/rework.git"
+  }
 }
